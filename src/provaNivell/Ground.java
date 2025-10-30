@@ -29,7 +29,6 @@ public class Ground extends Robot implements ResistanceEvaluable {
                 " uses " + traction + " and has a maximum speed of " + maximumSpeed;
     }
 
-    // Implementación del informe de resistencia
     @Override
     public String getResistanceReport() {
         if (traction == TypeOfTraction.CATERPILLAR)
