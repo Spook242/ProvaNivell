@@ -18,6 +18,5 @@ public abstract class Robot {
     public int getYearManufacture() { return yearManufacture; }
     public String getRegistrationDate() { return registrationDate; }
 
-    // Método polimórfico que cada subclase implementa
     public abstract String getTechnicalDescription();
 }
