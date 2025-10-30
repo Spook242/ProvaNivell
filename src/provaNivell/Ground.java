@@ -38,3 +38,4 @@ public class Ground extends Robot implements ResistanceEvaluable {
             return getName() + "Wheels traction. No Valid for the competition.";
     }
 }
+

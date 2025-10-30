@@ -32,3 +32,4 @@ public class Aerial extends Robot implements ResistanceEvaluable {
         return true;
     }
 }
+
